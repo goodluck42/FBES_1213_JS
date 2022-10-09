@@ -46,8 +46,10 @@ $(function ()
         $nodes.show();
     });
 
+
     $hideButton.on("click", (e) => {
         $container.slideUp();
+
     });
 
     let $applyColor = $("#square-apply");
@@ -62,6 +64,9 @@ $(function ()
 
     });
 });
+
+
+
 
 /// Events
 // document.addEventListener("DOMContentLoaded", function ()
