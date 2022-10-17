@@ -6128,7 +6128,7 @@
     }
   });
 
-  // wwwroot/ts/index.ts
+  // wwwroot/ts/main.ts
   var import_jquery = __toESM(require_jquery());
 
   // wwwroot/ts/person.ts
@@ -6155,7 +6155,7 @@ Age: ${this._age}`);
     }
   };
 
-  // wwwroot/ts/index.ts
+  // wwwroot/ts/main.ts
   (0, import_jquery.default)(function() {
     console.log("Hello world");
   });
