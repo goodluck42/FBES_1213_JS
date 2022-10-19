@@ -1,0 +1,22 @@
+regex: h(?:e|е)ll(?:o|о|0)
+
+hello
+hеllo
+hellо
+hell0
+
+
+regex: ^\d+\.\d+f?$
+
+:1123123.34411231232f
+:1.3
+:2.333
+
+regex: ^\d+\.\d+(?:f|exe)*$
+regex: ^\d+\.\d+(?:f|exe){1, }$
+regex: ^\d+\.\d+(?:f|exe){,3}$
+
+
+regex: (l{2})+
+
+Hello Hello
