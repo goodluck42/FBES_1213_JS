@@ -88,7 +88,9 @@ $(function f()
             });
         });
 
-
+        $.get("../data/data.json", data => {
+            console.log(data);
+        });
 
         // $.ajax({
         //     url: `https://api.openweathermap.org/data/2.5/weather?lat=40&lon=50&appid=${apiKey}`,
