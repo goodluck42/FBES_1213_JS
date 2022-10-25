@@ -7,6 +7,6 @@
     "typescript": "^4.8.4"
   },
   "scripts": {
-    "build": "esbuild ../Animation/src/ts/index.ts --bundle --minify --watch --outfile=./src/index.js"
+    "build": "esbuild wwwroot/ts/index.ts --bundle --minify --watch --outfile=./src/index.js"
   }
 }
