@@ -53,6 +53,15 @@ $(function f()
 
            $current.addClass("red");
         });
+
+        //
+
+        let $obj = $("<div>");
+
+        $obj.css({});
+        $obj.addClass("test");
+
+        $container.append($obj);
     });
 
     let result = routes.get(window.location.pathname);
